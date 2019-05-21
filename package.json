@@ -16,6 +16,9 @@
     ]
   },
   "scripts": {
-    "postinstall": "preconstruct dev"
+    "postinstall": "preconstruct dev",
+    "changeset": "changeset",
+    "bump": "changeset bump",
+    "release": "preconstruct build && changeset release"
   }
 }
