@@ -1,6 +1,7 @@
 {
   "name": "the-number-one",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/the-number-one.cjs.js",
+  "module": "dist/the-number-one.esm.js",
   "license": "MIT"
 }

@@ -8,5 +8,13 @@
   ],
   "dependencies": {
     "preconstruct": "^0.0.70"
+  },
+  "preconstruct": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "postinstall": "preconstruct dev"
   }
 }
